@@ -1,0 +1,238 @@
+/* General styling */
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Booking page styling */
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.booking-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.booking-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue */
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.booking-sidebar {
+  flex: 1;
+}
+
+.sidebar-item {
+  background-color: #fff; /* White */
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.sidebar-item h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sidebar-item p {
+  font-size: 16px;
+  text-align: center;
+}
+/* Header.css */
+.header {
+  padding: 30px;
+  background: linear-gradient(74deg,rgb(153, 188, 243),rgb(121, 93, 153),rgb(170, 153, 140));;
+}
+
+.header .logo {
+  font-family: "Arbutus", serif;
+  font-weight: 400;
+  
+}
+/* Booking page styling */
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.booking-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #343a40;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #495057;
+}
+
+.form-group label svg {
+  margin-right: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+select.form-control {
+  appearance: none;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KPHBhdGggZmlsbD0iIzQ5NTA1NyIgZD0iTTEyLjQxIDUuODVMOCAxMC4yNCAzLjU5IDUuODVMMi41IDcuMDEgOCAxMi41OGwgNS41LTEuNTctMS4wOS0xLjA2eiIvPgo8L3N2Zz4K');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
+
+/* Footer styling */
+.footer1 {
+  background-color: #343a40;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info1,
+.feedback-form1 {
+  flex: 1;
+  text-align: left;
+}
+
+.feedback-form1 form {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Common form group styling */
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+.form-group1 input,
+.form-group1 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-group1 textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.btn-primary1 {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary1:hover {
+  background-color: #007bff;
+  color: #fff;
+}

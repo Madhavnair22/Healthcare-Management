@@ -1,0 +1,187 @@
+/* General styles */
+.doctor-page {
+    font-family: 'Arial, sans-serif';
+    background-color: #f8f9fa;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    margin-bottom: 30px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand svg {
+    font-size: 1.5rem;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Doctor information styling */
+  .doctor-info {
+    margin-bottom: 20px;
+  }
+  
+  .doctor-info .doctor-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .doctor-info .patient-stories-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .doctor-info .patient-stories-link:hover {
+    text-decoration: underline;
+  }
+  
+  .doctor-info .experience-button {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .doctor-info .experience-button:hover {
+    background-color: #138496;
+  }
+  
+  .hospital-info {
+    margin-top: 10px;
+  }
+  
+  .hospital-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  /* Table styling */
+  .ant-table-thead > tr > th {
+    text-align: center;
+    background-color: #ebebeb;
+    font-weight: bold;
+  }
+  
+  .ant-table-tbody > tr > td {
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .view-details-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+ /* Footer styling */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+}
+.map{
+  margin-top: -2%;
+  margin-left: -19%;
+
+}
+
+  
+  /* Animation effects */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Adjust table row spacing */
+  .main-content table tbody tr {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  /* Adjust table cell padding */
+  .main-content table tbody tr td {
+    padding: 10px; /* Adjust as needed */
+  }
+  
+  /* Button styling */
+  .cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .accept-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover,
+  .accept-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Checkmark icon styling */
+  .checkmark-icon {
+    color: blue;
+    size: 128px;
+    margin-right: 15px;
+  }
+ /* Header.css */
+.header {
+  padding: 30px;
+  background: linear-gradient(74deg,rgb(153, 188, 243),rgb(121, 93, 153),rgb(170, 153, 140));;
+}
+
+.header .logo {
+  font-family: "Arbutus", serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.feedback-form{
+  margin-right: -19%;
+}

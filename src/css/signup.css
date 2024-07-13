@@ -1,0 +1,215 @@
+/* Navbar styling */
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+.navbar {
+  margin-bottom: 30px;
+}
+.form-container{
+  background-image: url('../image/27230.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* or 'contain', depending on your preference */
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand svg {
+  font-size: 1.5rem;
+}
+
+/* Main content styling */
+.main-content {
+  margin-top: 50px;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+.footer {
+  position: relative; /* Ensure footer stays at the bottom of the page */
+  background-color: #343a40; /* Dark gray */
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Space items evenly between the left and right sides */
+  max-width: 1200px; /* Limit the width of the footer content */
+  margin: 0 auto; /* Center the footer content horizontally */
+}
+
+.contact-info {
+ /* Let each section take equal space */
+ margin-left: 5%;
+ padding: 5%;
+ font-size: -200%;
+ text-align: center;
+}
+
+.feedback-form form {
+  margin-right: 60%;
+}
+/* Header.css */
+.header {
+  padding: 30px;
+  background: linear-gradient(74deg,rgb(153, 188, 243),rgb(121, 93, 153),rgb(170, 153, 140));;
+}
+
+.header .logo {
+  font-family: "Arbutus", serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.navigation {
+  background-color: #f0f0f0; /* Light gray */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: color 0.3s;
+  border-radius: 20px;
+}
+
+.navigation ul li a:hover {
+  color: #007bff; /* Light blue */
+  background-color: #130303; /* Light gray */
+}
+
+.introduction {
+  background-color: #f8f9fa; /* Light gray */
+  padding: 50px;
+  text-align: center;
+}
+
+/* Feature boxes */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.feature-box {
+  background-color: #fff; /* White */
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  transition: transform 0.3s ease; /* Add transition */
+}
+
+.feature-box:hover {
+  transform: translateY(-5px); /* Add hover effect */
+}
+
+.feature-box h3 {
+  color: #007bff; /* Light blue */
+}
+
+/* Call to Action section */
+.cta {
+  background-color: #007bff; /* Light blue */
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta p {
+  margin-bottom: 20px;
+}
+
+.cta .btn {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: #fff; /* White */
+  color: #007bff; /* Light blue */
+  border: 2px solid #007bff; /* Light blue */
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta .btn:hover {
+  background-color: #007bff; /* Light blue */
+  color: #fff;
+}
+
+/* Testimonials section */
+.testimonials {
+  background-color: #f8f9fa; /* Light gray */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #fff; /* White */
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.testimonial p {
+  margin-bottom: 10px;
+}
+
+.testimonial .author {
+  font-style: italic;
+  color: #555;
+}
+
+/* About Us section */
+.about-us {
+  background-color: #f8f9fa; /* Light gray */
+  padding: 50px;
+  text-align: center;
+}
+
+.about-us p {
+  margin-bottom: 20px;
+}
+
+.side-images img {
+  animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,130 @@
+/* Header.css */
+.header {
+  background: linear-gradient(74deg,rgb(153, 188, 243),rgb(121, 93, 153),rgb(170, 153, 140));;
+}
+
+.header .logo {
+  font-family: "Arbutus", serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+/* Navigation styling */
+.navigation {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: color 0.3s;
+  border-radius: 20px;
+}
+
+.navigation ul li a:hover {
+  color: #007bff;
+  background-color: #e5e5e5;
+}
+
+/* Main content styling */
+.main-content {
+  margin-top: 80px;
+}
+
+/* Doctors list styling */
+.doctors-container {
+  margin-top: 20px;
+}
+
+.doctors-list {
+  width: 100%;
+}
+
+.doctors-list table {
+  width: 100%;
+}
+
+.doctors-list th,
+.doctors-list td {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer styling */
+.footer1 {
+  background-color: #343a40;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info1,
+.feedback-form1 {
+  flex: 1;
+  text-align: left;
+}
+
+.feedback-form1 form {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Common form group styling */
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+.form-group1 input,
+.form-group1 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-group1 textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.btn-primary1 {
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary1:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
